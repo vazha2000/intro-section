@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="image-container">
-        <img src={imageSrc} />
+        <img src={imageSrc} alt=""/>
       </div>
       <div className="hero-text-container">
         <div className="hero-text">
