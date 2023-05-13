@@ -1,0 +1,17 @@
+.footer-container {
+  width: 90%;
+  margin: 40px 0;
+}
+.footer-svg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    margin: 0;
+    margin-top: 70px;
+    width: 100%;
+  }
+}

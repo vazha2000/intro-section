@@ -1,0 +1,23 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.main.active {
+  background-color: rgb(227, 222, 222);
+}
+.mobile-footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-footer {
+    display: none;
+  }
+}
+
